@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 #load_dotenv()
-API_KEY = st.secrets('api_key')
+API_KEY = st.secrets['api_key']
 
 def main():
     st.title("Open Weather API")
