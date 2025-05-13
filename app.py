@@ -5,9 +5,10 @@ import requests
 import pandas as pd
 
 #load_dotenv()
-API_KEY = st.secrets['api_key']
+
 
 def main():
+    API_KEY = st.secrets['api_key']
     st.title("Open Weather API")
     st.text("Inserisci città")
     city_name = st.text_input("Città")
