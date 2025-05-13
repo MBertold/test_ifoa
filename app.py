@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 import requests
 import pandas as pd
 
-load_dotenv()
-#API_KEY = os.getenv('api_key')
+#load_dotenv()
+API_KEY = st.secrets('api_key')
 
 def main():
     st.title("Open Weather API")
